@@ -14,7 +14,7 @@ import { feature } from 'topojson-client';
 const sampleData = [
   { city: 'Mumbai', state: 'Maharashtra', value: 120, latitude: 19.0760, longitude: 72.8777 },
   { city: 'Pune', state: 'Maharashtra', value: 90, latitude: 18.5204, longitude: 73.8567 },
-  { city: 'Lucknow', state: 'Uttar Pradesh', value: 85, latitude: 26.8467, longitude: 80.9462 },
+  { city: 'Lucknow', state: 'Uttar Pradesh', value: 85, latitude: 26.8467, longitude: 80.9462 },//26.850000, 80.949997
   { city: 'Kanpur', state: 'Uttar Pradesh', value: 65, latitude: 26.4499, longitude: 80.3319 },
   { city: 'Bangalore', state: 'Karnataka', value: 105, latitude: 12.9716, longitude: 77.5946 },
   { city: 'Mysore', state: 'Karnataka', value: 70, latitude: 12.2958, longitude: 76.6394 },
@@ -32,7 +32,7 @@ const sampleData = [
   { city: 'Gaya', state: 'Bihar', value: 4, latitude: 24.7489, longitude: 85.0010 },
   { city: 'Bhopal', state: 'Madhya Pradesh', value: 2, latitude: 23.2599, longitude: 77.4126 },
   { city: 'Indore', state: 'Madhya Pradesh', value: 1, latitude: 22.7196, longitude: 75.8577 },
-  { city: 'Chandigarh', state: 'Haryana', value: 5, latitude: 30.7333, longitude: 76.7794 },
+  { city: 'Chandigarh', state: 'Haryana', value: 5,latitude: 30.741482, longitude: 76.768066},//latitude: 30.741482, longitude: 76.768066
   { city: 'Faridabad', state: 'Haryana', value: 0, latitude: 28.4089, longitude: 77.3178 },
   { city: 'Hyderabad', state: 'Telangana', value: 6, latitude: 17.3850, longitude: 78.4867 },
   { city: 'Warangal', state: 'Telangana', value: 2, latitude: 17.9689, longitude: 79.5941 },
